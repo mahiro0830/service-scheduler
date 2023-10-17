@@ -13,6 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// TOPページ（All in one Schedulerの紹介ページ）
+Route::get( '/', function () {
+    return view( 'home' );
+} );
