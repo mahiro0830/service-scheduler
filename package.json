@@ -1,13 +1,42 @@
 {
-    "private": true,
-    "type": "module",
+    "name": "pj-all-in-one-scheduler",
     "scripts": {
-        "dev": "vite",
-        "build": "vite build"
+        "dev": "webpack --config webpack.dev.js",
+        "build": "webpack --config webpack.prod.js"
     },
     "devDependencies": {
-        "axios": "^1.1.2",
-        "laravel-vite-plugin": "^0.8.0",
-        "vite": "^4.0.0"
+        "@babel/core": "^7.10.5",
+        "@babel/preset-env": "^7.10.4",
+        "autoprefixer": "^9.8.5",
+        "babel-loader": "^8.1.0",
+        "clean-webpack-plugin": "^3.0.0",
+        "copy-webpack-plugin": "^11.0.0",
+        "css-loader": "^6.7.1",
+        "css-minimizer-webpack-plugin": "^4.0.0",
+        "file-loader": "^6.2.0",
+        "html-loader": "^3.1.0",
+        "html-webpack-plugin": "^5.5.0",
+        "image-webpack-loader": "^8.1.0",
+        "imagemin-gifsicle": "^7.0.0",
+        "imagemin-mozjpeg": "^9.0.0",
+        "imagemin-pngquant": "^9.0.2",
+        "imagemin-svgo": "^9.0.0",
+        "imagemin-webpack-plugin": "^2.4.2",
+        "mini-css-extract-plugin": "^2.6.0",
+        "postcss-loader": "^3.0.0",
+        "pug-loader": "^2.4.0",
+        "sass": "^1.52.1",
+        "sass-loader": "^8.0.2",
+        "style-loader": "^3.3.1",
+        "terser-webpack-plugin": "^3.0.8",
+        "webpack": "^5.72.1",
+        "webpack-cli": "^4.9.2",
+        "webpack-dev-server": "^4.9.0",
+        "webpack-merge": "^5.0.9"
+    },
+    "dependencies": {
+        "core-js": "^3.22.7",
+        "jquery": "^3.6.0",
+        "regenerator-runtime": "^0.13.9"
     }
 }

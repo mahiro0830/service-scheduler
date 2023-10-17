@@ -1,0 +1,51 @@
+@use "./variables" as var;
+
+@function canvas-vw($value) {
+	@return calc-vw(var.$size-pc-design, $value);
+}
+
+@function canvas-vw-sp($value) {
+	@return calc-vw(var.$size-sp-design, $value);
+}
+
+@function calc-vw($max-width, $value) {
+	$context-vw: ($max-width * 0.01) / 1px * 1px; // 1% viewport width
+
+	@return num-ceil(($value / $context-vw) * 1vw, 3);
+}
+
+@function num-ceil($number, $digits: 0) {
+	@return to-fixed($number, $digits, 'ceil');
+}
+
+@function to-fixed($number, $digits: 0, $round: 'round') {
+	$n: 1;
+
+	@if type-of($number) != number {
+		@warn '#{ $number } is not a number.';
+		@return $number;
+	}
+
+	@if type-of($digits) != number {
+		@warn '#{ $digits } is not a number.';
+		@return $number;
+	} @else if not unitless($digits) {
+		@warn '#{ $digits } has a unit.';
+		@return $number;
+	}
+
+	@for $i from 1 through $digits {
+		$n: $n * 10;
+	}
+
+	@if $round == 'round' {
+		@return round($number * $n) / $n;
+	} @else if $round == 'ceil' {
+		@return ceil($number * $n) / $n;
+	} @else if $round == 'floor' {
+		@return floor($number * $n) / $n;
+	} @else {
+		@warn '#{ $round } is undefined keyword.';
+		@return $number;
+	}
+}

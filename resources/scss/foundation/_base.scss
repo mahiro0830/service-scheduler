@@ -1,0 +1,19 @@
+@use "../global/" as global;
+
+html {
+  text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  font-size: 62.5%;
+  --vh: 11.05px;
+}
+
+body {
+  font-family: global.$font-ja;
+  line-height: global.$size-line-height;
+  color: global.$color-font;
+  font-size: 1.6rem;
+}
+
+img {
+  image-rendering: -webkit-optimize-contrast;
+}

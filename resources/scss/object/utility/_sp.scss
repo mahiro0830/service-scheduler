@@ -1,0 +1,12 @@
+@use "../../global/" as g;
+
+.u-sp {
+    display: none !important;
+    @include g.mq() {
+        display: block !important;
+
+        &--dib {
+            display: inline-block !important;
+        }
+    }
+}

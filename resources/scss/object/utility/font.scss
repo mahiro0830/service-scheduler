@@ -1,0 +1,7 @@
+@use "../../global/" as g;
+
+.u-font {
+    &--helvetica-neue {
+        font-size: g.$font-helvetica-Neue;
+    }
+}

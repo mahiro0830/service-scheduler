@@ -1,0 +1,7 @@
+@use "../../global/" as g;
+
+.u-pc {
+    @include g.mq() {
+        display: none !important;
+    }
+}

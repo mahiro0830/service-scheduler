@@ -1,0 +1,11 @@
+@use "../../global/" as global;
+
+.c-container {
+  margin: 0 auto;
+  padding: 0 30px;
+  max-width: 1260px;
+
+  @include global.mq(md) {
+    padding: 0 20px;
+  }
+}
