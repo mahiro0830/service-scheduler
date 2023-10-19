@@ -1,8 +1,15 @@
+@use "../../global/" as global;
+
 .u-color {
-    &White {
-        color: #FFF;
-    }
-    &Black {
-        color: #000;
-    }
+  &--accent {
+    color: global.$color-accent;
+  }
+
+  &--white {
+      color: #FFF;
+  }
+
+  &--black {
+      color: #000;
+  }
 }

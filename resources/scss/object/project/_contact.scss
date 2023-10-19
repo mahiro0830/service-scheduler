@@ -1,0 +1,92 @@
+@use "../../global/" as global;
+/* ================================
+.p-contact-form
+================================ */
+.p-contact-form {
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.p-contact-form__text {
+  margin-bottom: 60px;
+  padding-top: 24px;
+  text-align: center;
+}
+
+.p-contact-form__item {
+  display: flex;
+  align-items: flex-start;
+
+  & + & {
+    margin-top: 27px;
+  }
+
+  .title {
+    line-height: 50px;
+    margin-right: 15px;
+  }
+
+  .required {
+    background-color: #BE0202;
+    width: 36px;
+    height: 19px;
+    color: #FFF;
+    text-align: center;
+    line-height: 19px;
+    border-radius: 3px;
+    font-size: 11px;
+  }
+}
+
+.p-contact-form__item-head {
+  width: 245px;
+  padding-right: 10px;
+}
+
+.p-contact-form__item-body {
+  width: calc( 100% - 245px );
+
+  select,
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    -webkit-appearance: none;
+    border: 0;
+    background-color: #EEE;
+    padding: 13px 18px;
+  }
+
+  select,
+  input[type="text"],
+  input[type="email"] {
+    width: 100%;
+    height: 50px;
+  }
+
+  textarea {
+    width: 100%;
+    height: 200px;
+  }
+
+  select {
+    background-image: url(../images/common/icon_select.svg);
+    background-repeat: no-repeat;
+    background-position: center right 17px;
+  }
+}
+
+.p-contact-form__submit {
+  text-align: center;
+  padding-top: 50px;
+
+  input {
+    -webkit-appearance: none;
+    border: 0;
+    cursor: pointer;
+    transition: opacity 0.2s;
+  }
+
+  input:hover {
+    opacity: 0.7;
+  }
+}

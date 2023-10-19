@@ -3,5 +3,40 @@
 .c-title-normal
 ================================ */
 .c-title-normal {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.4;
+}
 
+/* ================================
+.c-title-middle
+================================ */
+.c-title-middle {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.5;
+
+  span {
+    display: inline;
+  }
+}
+
+/* ================================
+.c-title-en
+================================ */
+.c-title-en {
+  font-size: 38px;
+  font-weight: 900;
+  line-height: 1.4;
+
+  &::first-letter {
+    color: global.$color-accent;
+  }
+}
+
+/* ================================
+.c-title-ja
+================================ */
+.c-title-ja {
+  font-size: 14px;
 }

@@ -3,9 +3,9 @@
 .c-container {
   margin: 0 auto;
   padding: 0 30px;
-  max-width: 1260px;
+  max-width: 1200px;
 
   @include global.mq(md) {
-    padding: 0 20px;
+    padding: 0 15px;
   }
 }

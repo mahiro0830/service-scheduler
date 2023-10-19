@@ -2,9 +2,10 @@
 // Colors
 // ==========================================================================
 
-$color-font: #202020;
-$color-blue: #36EEED;
-$color-pink: #F731D7;
+$color-font:   #202020;
+$color-blue:   #36EEED;
+$color-pink:   #F731D7;
+$color-accent: #832727;
 
 // ==========================================================================
 // Sizes
@@ -23,6 +24,6 @@ $size-line-height: 1.7;
 // Typography
 // ==========================================================================
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;400;700;900&display=swap');
 
 $font-ja: 'Noto Sans JP', sans-serif;

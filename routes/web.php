@@ -17,3 +17,6 @@ use Illuminate\Support\Facades\Route;
 Route::get( '/', function () {
     return view( 'home' );
 } );
+
+// ログインページ
+// Route::get( '/login', [AuthController::class, 'index'] );

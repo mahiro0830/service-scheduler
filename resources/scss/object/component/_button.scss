@@ -1,6 +1,17 @@
 @use "../../global/" as global;
 /* ================================
-.c-button-type1
+.c-button-normal
 ================================ */
-.c-button-type1 {
+.c-button-normal {
+  display: inline-block;
+  background-color: global.$color-accent;
+  color: #FFF;
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 13px 60px;
+}
+
+.c-button-normal--small {
+  padding: 4px 33px;
+  font-size: 13px;
 }
