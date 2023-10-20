@@ -3,11 +3,38 @@
 .p-home-mv
 ================================ */
 .p-home-mv {
-  height: 400px;
   background-color: #f7f7f7;
   display: flex;
   align-items: center;
   justify-content: center;
+
+  .c-container,
+  .splide {
+    height: 100%;
+  }
+}
+
+.p-home-mv__slider {
+  overflow: visible !important;
+  height: 100%;
+}
+
+.p-home-mv__slider-item {
+  height: 540px;
+
+  @media screen and ( max-width: 1200px ) {
+    height: 45vw;
+  }
+
+  @include global.mq("md") {
+    height: 75vw;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
 }
 
 /* ================================

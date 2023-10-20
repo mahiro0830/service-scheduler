@@ -28,9 +28,26 @@
 
         <main class="l-body p-home">
             <div class="p-home-mv">
-                <div class="p-section-title">
-                    <span class="c-title-en">MV</span>
-                </div><!-- /.p-section-title -->
+                <div class="c-container">
+                    <div class="splide">
+                        <div class="p-home-mv__slider splide__track">
+                            <div class="p-home-mv__slider-list splide__list">
+                                <div class="p-home-mv__slider-item splide__slide">
+                                    <img src="assets/images/top/pic_about@2x.jpg" alt="カルーセルスライダー画像">
+                                </div>
+                                <div class="p-home-mv__slider-item splide__slide">
+                                    <img src="assets/images/top/pic_about@2x.jpg" alt="カルーセルスライダー画像">
+                                </div>
+                                <div class="p-home-mv__slider-item splide__slide">
+                                    <img src="assets/images/top/pic_about@2x.jpg" alt="カルーセルスライダー画像">
+                                </div>
+                                <div class="p-home-mv__slider-item splide__slide">
+                                    <img src="assets/images/top/pic_about@2x.jpg" alt="カルーセルスライダー画像">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- /.c-container -->
             </div><!-- /.p-home-mv -->
 
             <div class="p-home-news">

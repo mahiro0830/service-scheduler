@@ -35,6 +35,7 @@
         "webpack-merge": "^5.0.9"
     },
     "dependencies": {
+        "@splidejs/splide": "^4.1.4",
         "core-js": "^3.22.7",
         "jquery": "^3.6.0",
         "regenerator-runtime": "^0.13.9"
