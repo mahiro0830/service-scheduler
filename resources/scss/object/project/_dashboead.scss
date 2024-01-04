@@ -30,6 +30,7 @@
   border-radius: 6px;
   height: 165px;
   padding: 5px;
+  background-color: #fff;
 }
 
 .p-dashboard-schedule__item-inner {
@@ -87,7 +88,7 @@
   left: 0;
   top: 8px;
   font-size: 14px;
-  font-weight: 700;
+  font-weight: 400;
 
   .is--red {
     color: red;
