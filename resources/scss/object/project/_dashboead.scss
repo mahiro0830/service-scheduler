@@ -7,6 +7,12 @@
   background-color: #f7f7f7;
 }
 
+.p-dashboard__section {
+  & + & {
+    margin-top: 80px;
+  }
+}
+
 /* ================================
 .p-dashboard-schedule
 ================================ */
@@ -59,4 +65,66 @@
   .is--red {
     color: red;
   }
+}
+
+/* ================================
+.p-dashboard-today
+================================ */
+.p-dashboard-today {
+  position: relative;
+  margin: 25px 0 0;
+  padding: 35px 0 19px 95px;
+  border-top: 1px solid #555;
+  border-bottom: 1px solid #555;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.p-dashboard-today__date {
+  position: absolute;
+  left: 0;
+  top: 8px;
+  font-size: 14px;
+  font-weight: 700;
+
+  .is--red {
+    color: red;
+  }
+}
+
+.p-dashboard-today__range {
+  position: absolute;
+  top: 0;
+  left: 95px;
+  width: calc(100% - 95px);
+  height: 100vw;
+  display: flex;
+
+  .item {
+    flex: 1;
+    display: block;
+    border-left: 1px dashed #999;
+
+    span {
+      vertical-align: top;
+      transform: translate(-50%, 0);
+      background-color: #f7f7f7;
+      font-size: 11px;
+      font-weight: 700;
+      color: #555;
+    }
+  }
+}
+
+.p-dashboard-today__item {
+  position: relative;
+  z-index: 1;
+  background-color: #999;
+  color: #FFF;
+  display: block;
+  border-radius: 6px;
+  font-size: 14px;
+  padding: 4px 10px;
 }

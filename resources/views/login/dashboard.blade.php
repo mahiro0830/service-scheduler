@@ -32,97 +32,138 @@
 
     <main class="l-body p-dashboard">
         <div class="c-container">
-            <h2 class="c-title-middle">今週のスケジュール</h2>
+            <div class="p-dashboard__section">
+                <h2 class="c-title-middle">今週のスケジュール</h2>
+                <div class="p-dashboard-schedule is--weekly">
+                    <div class="p-dashboard-schedule__item">
+                        <div class="p-dashboard-schedule__item-inner">
+                            <a href="#" class="event category-000">出勤</a>
+                            <a href="#" class="event category-000">午前の仕事</a>
+                            <a href="#" class="event category-001">◯◯さんとランチ</a>
+                            <a href="#" class="event is--point category-000">資料の提出</a>
+                            <a href="#" class="event category-001">ジムで筋トレ</a>
+                            <a href="#" class="event category-001">ジムで筋トレ</a>
+                            <a href="#" class="event category-001">ジムで筋トレ</a>
+                            <a href="#" class="event category-001">ジムで筋トレ</a>
+                        </div>
+                        <p class="p-dashboard-schedule__item-date">
+                            10/12（<span>月</span>）
+                        </p>
+                    </div><!-- /.p-dashboard-schedule__item -->
+                    <div class="p-dashboard-schedule__item">
+                        <div class="p-dashboard-schedule__item-inner">
+                            <a href="#" class="event category-000">出勤</a>
+                            <a href="#" class="event category-000">午前の仕事</a>
+                            <a href="#" class="event category-001">◯◯さんとランチ</a>
+                            <a href="#" class="event is--point category-000">資料の提出</a>
+                            <a href="#" class="event category-001">ジムで筋トレ</a>
+                        </div>
+                        <p class="p-dashboard-schedule__item-date">
+                            10/13（<span>火</span>）
+                        </p>
+                    </div><!-- /.p-dashboard-schedule__item -->
+                    <div class="p-dashboard-schedule__item">
+                        <div class="p-dashboard-schedule__item-inner">
+                            <a href="#" class="event category-000">出勤</a>
+                            <a href="#" class="event category-000">午前の仕事</a>
+                            <a href="#" class="event category-001">◯◯さんとランチ</a>
+                            <a href="#" class="event is--point category-000">資料の提出</a>
+                            <a href="#" class="event category-001">ジムで筋トレ</a>
+                        </div>
+                        <p class="p-dashboard-schedule__item-date">
+                            10/14（<span>水</span>）
+                        </p>
+                    </div><!-- /.p-dashboard-schedule__item -->
+                    <div class="p-dashboard-schedule__item">
+                        <div class="p-dashboard-schedule__item-inner">
+                            <a href="#" class="event category-000">出勤</a>
+                            <a href="#" class="event category-000">午前の仕事</a>
+                            <a href="#" class="event category-001">◯◯さんとランチ</a>
+                            <a href="#" class="event is--point category-000">資料の提出</a>
+                            <a href="#" class="event category-001">ジムで筋トレ</a>
+                        </div>
+                        <p class="p-dashboard-schedule__item-date">
+                            10/15（<span>木</span>）
+                        </p>
+                    </div><!-- /.p-dashboard-schedule__item -->
+                    <div class="p-dashboard-schedule__item">
+                        <div class="p-dashboard-schedule__item-inner">
+                            <a href="#" class="event category-000">出勤</a>
+                            <a href="#" class="event category-000">午前の仕事</a>
+                            <a href="#" class="event category-001">◯◯さんとランチ</a>
+                            <a href="#" class="event is--point category-000">資料の提出</a>
+                            <a href="#" class="event category-001">ジムで筋トレ</a>
+                        </div>
+                        <p class="p-dashboard-schedule__item-date">
+                            10/16（<span>金</span>）
+                        </p>
+                    </div><!-- /.p-dashboard-schedule__item -->
+                    <div class="p-dashboard-schedule__item">
+                        <div class="p-dashboard-schedule__item-inner">
+                            <a href="#" class="event category-000">出勤</a>
+                            <a href="#" class="event category-000">午前の仕事</a>
+                            <a href="#" class="event category-001">◯◯さんとランチ</a>
+                            <a href="#" class="event is--point category-000">資料の提出</a>
+                            <a href="#" class="event category-001">ジムで筋トレ</a>
+                        </div>
+                        <p class="p-dashboard-schedule__item-date">
+                            10/17（<span class="is--red">土</span>）
+                        </p>
+                    </div><!-- /.p-dashboard-schedule__item -->
+                    <div class="p-dashboard-schedule__item">
+                        <div class="p-dashboard-schedule__item-inner">
+                            <a href="#" class="event category-000">出勤</a>
+                            <a href="#" class="event category-000">午前の仕事</a>
+                            <a href="#" class="event category-001">◯◯さんとランチ</a>
+                            <a href="#" class="event is--point category-000">資料の提出</a>
+                            <a href="#" class="event category-001">ジムで筋トレ</a>
+                        </div>
+                        <p class="p-dashboard-schedule__item-date">
+                            10/18（<span class="is--red">日</span>）
+                        </p>
+                    </div><!-- /.p-dashboard-schedule__item -->
+                </div><!-- /.p-dashboard-schedule -->
+            </div><!-- /.p-dashboard__section -->
 
-            <div class="p-dashboard-schedule is--weekly">
-                <div class="p-dashboard-schedule__item">
-                    <div class="p-dashboard-schedule__item-inner">
-                        <a href="#" class="event category-000">出勤</a>
-                        <a href="#" class="event category-000">午前の仕事</a>
-                        <a href="#" class="event category-001">◯◯さんとランチ</a>
-                        <a href="#" class="event is--point category-000">資料の提出</a>
-                        <a href="#" class="event category-001">ジムで筋トレ</a>
-                        <a href="#" class="event category-001">ジムで筋トレ</a>
-                        <a href="#" class="event category-001">ジムで筋トレ</a>
-                        <a href="#" class="event category-001">ジムで筋トレ</a>
-                    </div>
-                    <p class="p-dashboard-schedule__item-date">
-                        10/12（<span>月</span>）
-                    </p>
-                </div><!-- /.p-dashboard-schedule__item -->
-                <div class="p-dashboard-schedule__item">
-                    <div class="p-dashboard-schedule__item-inner">
-                        <a href="#" class="event category-000">出勤</a>
-                        <a href="#" class="event category-000">午前の仕事</a>
-                        <a href="#" class="event category-001">◯◯さんとランチ</a>
-                        <a href="#" class="event is--point category-000">資料の提出</a>
-                        <a href="#" class="event category-001">ジムで筋トレ</a>
-                    </div>
-                    <p class="p-dashboard-schedule__item-date">
-                        10/13（<span>火</span>）
-                    </p>
-                </div><!-- /.p-dashboard-schedule__item -->
-                <div class="p-dashboard-schedule__item">
-                    <div class="p-dashboard-schedule__item-inner">
-                        <a href="#" class="event category-000">出勤</a>
-                        <a href="#" class="event category-000">午前の仕事</a>
-                        <a href="#" class="event category-001">◯◯さんとランチ</a>
-                        <a href="#" class="event is--point category-000">資料の提出</a>
-                        <a href="#" class="event category-001">ジムで筋トレ</a>
-                    </div>
-                    <p class="p-dashboard-schedule__item-date">
-                        10/14（<span>水</span>）
-                    </p>
-                </div><!-- /.p-dashboard-schedule__item -->
-                <div class="p-dashboard-schedule__item">
-                    <div class="p-dashboard-schedule__item-inner">
-                        <a href="#" class="event category-000">出勤</a>
-                        <a href="#" class="event category-000">午前の仕事</a>
-                        <a href="#" class="event category-001">◯◯さんとランチ</a>
-                        <a href="#" class="event is--point category-000">資料の提出</a>
-                        <a href="#" class="event category-001">ジムで筋トレ</a>
-                    </div>
-                    <p class="p-dashboard-schedule__item-date">
-                        10/15（<span>木</span>）
-                    </p>
-                </div><!-- /.p-dashboard-schedule__item -->
-                <div class="p-dashboard-schedule__item">
-                    <div class="p-dashboard-schedule__item-inner">
-                        <a href="#" class="event category-000">出勤</a>
-                        <a href="#" class="event category-000">午前の仕事</a>
-                        <a href="#" class="event category-001">◯◯さんとランチ</a>
-                        <a href="#" class="event is--point category-000">資料の提出</a>
-                        <a href="#" class="event category-001">ジムで筋トレ</a>
-                    </div>
-                    <p class="p-dashboard-schedule__item-date">
-                        10/16（<span>金</span>）
-                    </p>
-                </div><!-- /.p-dashboard-schedule__item -->
-                <div class="p-dashboard-schedule__item">
-                    <div class="p-dashboard-schedule__item-inner">
-                        <a href="#" class="event category-000">出勤</a>
-                        <a href="#" class="event category-000">午前の仕事</a>
-                        <a href="#" class="event category-001">◯◯さんとランチ</a>
-                        <a href="#" class="event is--point category-000">資料の提出</a>
-                        <a href="#" class="event category-001">ジムで筋トレ</a>
-                    </div>
-                    <p class="p-dashboard-schedule__item-date">
-                        10/17（<span class="is--red">土</span>）
-                    </p>
-                </div><!-- /.p-dashboard-schedule__item -->
-                <div class="p-dashboard-schedule__item">
-                    <div class="p-dashboard-schedule__item-inner">
-                        <a href="#" class="event category-000">出勤</a>
-                        <a href="#" class="event category-000">午前の仕事</a>
-                        <a href="#" class="event category-001">◯◯さんとランチ</a>
-                        <a href="#" class="event is--point category-000">資料の提出</a>
-                        <a href="#" class="event category-001">ジムで筋トレ</a>
-                    </div>
-                    <p class="p-dashboard-schedule__item-date">
-                        10/18（<span class="is--red">日</span>）
-                    </p>
-                </div><!-- /.p-dashboard-schedule__item -->
-            </div><!-- /.p-dashboard-schedule -->
+            <div class="p-dashboard__section">
+                <h2 class="c-title-middle">今日の予定</h2>
+                <div class="p-dashboard-today__wrapper">
+                    <div class="p-dashboard-today">
+                        <div class="p-dashboard-today__date">
+                            10/18（<span class="is--red">日</span>）
+                        </div><!-- /.p-dashboard-today__date -->
+                        <div class="p-dashboard-today__range">
+                            <span class="item"><span>7</span></span>
+                            <span class="item"><span>8</span></span>
+                            <span class="item"><span>9</span></span>
+                            <span class="item"><span>10</span></span>
+                            <span class="item"><span>11</span></span>
+                            <span class="item"><span>12</span></span>
+                            <span class="item"><span>13</span></span>
+                            <span class="item"><span>14</span></span>
+                            <span class="item"><span>15</span></span>
+                            <span class="item"><span>16</span></span>
+                            <span class="item"><span>17</span></span>
+                            <span class="item"><span>18</span></span>
+                            <span class="item"><span>19</span></span>
+                            <span class="item"><span>20</span></span>
+                            <span class="item"><span>21</span></span>
+                            <span class="item"><span>22</span></span>
+                            <span class="item"><span>23</span></span>
+                        </div><!-- /.p-dashboard-today__range -->
+                        <a href="#" class="p-dashboard-today__item">
+                            ◯◯さんとランチ<br>
+                            場所：川越<br>
+                            時間：12:00〜14:00
+                        </a>
+                        <a href="#" class="p-dashboard-today__item">
+                            ジムで筋トレ<br>
+                            場所：いつもの<br>
+                            時間：16:00〜17:00
+                        </a>
+                    </div><!-- /.p-dashboard-today -->
+                </div><!-- /.p-dashboard-today__wrapper -->
+            </div><!-- /.p-dashboard__section -->
         </div><!-- /.c-container -->
     </main><!-- /.l-body -->
 
