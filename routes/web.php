@@ -14,10 +14,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// TOPページ（All in one Schedulerの紹介ページ）
+// TOPページ（LP）
 Route::get( '/', function () {
     return view( 'home' );
 } );
 
 // ログインページ
-Route::get( '/login', [LoginController::class, 'login'] );
+Route::get( '/login', [ LoginController::class, 'login' ] );
+
+// ダッシュボード
+Route::get( '/dashboard', [ LoginController::class, 'dashboard' ] )->name( 'dashboard' );

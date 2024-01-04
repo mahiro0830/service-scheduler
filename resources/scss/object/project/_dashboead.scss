@@ -1,0 +1,62 @@
+@use "../../global/" as global;
+/* ================================
+.p-dashboard
+================================ */
+.p-dashboard {
+  padding: 38px 0 100px;
+  background-color: #f7f7f7;
+}
+
+/* ================================
+.p-dashboard-schedule
+================================ */
+.p-dashboard-schedule {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 18px 0 35px;
+}
+
+.p-dashboard-schedule__item {
+  position: relative;
+  width: calc(100% / 7 - 10px * 6 / 7);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.16);
+  border-radius: 6px;
+  height: 165px;
+  padding: 5px;
+}
+
+.p-dashboard-schedule__item-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+
+  .event {
+    width: 100%;
+    height: 21px;
+    max-height: 21px;
+    background-color: #999;
+    color: #FFF;
+    border-radius: 6px;
+    font-size: 12px;
+    padding: 0 4px;
+  }
+}
+
+.p-dashboard-schedule__item-date {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 100%);
+  white-space: nowrap;
+  font-size: 14px;
+  font-weight: 500;
+  padding-top: 7px;
+
+  .is--red {
+    color: red;
+  }
+}
